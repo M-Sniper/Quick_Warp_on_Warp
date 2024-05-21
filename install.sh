@@ -209,7 +209,7 @@ fi
 # ترکیب رشته و متغیرها در یک متغیر دیگر
 new_json='{
       "type": "wireguard",
-      "tag": "🇮🇷'"$i"'",
+      "tag": "warp-🇮🇷'"$i"'",
       "server": "'"$ip"'",
       "server_port": '"$port"',
 
@@ -226,8 +226,8 @@ new_json='{
     },
     {
       "type": "wireguard",
-      "tag": "🇩🇪'"$i"'",
-      "detour": "🇮🇷'"$i"'",
+      "tag": "warp-🇩🇪'"$i"'",
+      "detour": "warp-🇮🇷'"$i"'",
       "server": "'"$ip"'",
       "server_port": '"$port"',
       
